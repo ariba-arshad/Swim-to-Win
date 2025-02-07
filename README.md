@@ -1,5 +1,7 @@
 # Swim To Win
 
+![Demo](Project_demo.gif)
+
 ## Overview
 This project is an infinite animation game built using Assembly language in DOSBox. The game consists of multiple animated objects, keyboard-controlled interactions, a scoring system, and BIOS/DOS services for user input and interface.
 
@@ -63,11 +65,6 @@ C:\>swim_to_win.com
 ```
 
 ---
-## Demo Video
-[![Watch the Video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
-
----
-
 ## Credits
 - Developed by: **ariba-arshad**
 
