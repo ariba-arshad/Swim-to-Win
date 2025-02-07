@@ -6,17 +6,17 @@
 This project is an infinite animation game built using Assembly language in DOSBox. The game consists of multiple animated objects, keyboard-controlled interactions, a scoring system, and BIOS/DOS services for user input and interface.
 
 ## Features
-### **Phase I - Objects' Printing**
+### **- Objects' Printing**
 - **Mountains, Buildings, or Trees:** The top third of the screen will display mountains (or buildings/trees) using a generic function with multiple calls.
 - **Ships:** The middle third of the screen will have moving ships of different sizes.
 - **Sea:** The bottom third of the screen represents a static sea.
 - **Daytime Scene:** The game will initially support daytime mode only.
 
-### **Phase II - Objects' Movements**
+### **- Objects' Movements**
 - The sky moves **leftward**.
 - The ships move **rightward**.
 
-### **Phase III - Keyboard Interrupt**
+### **- Keyboard Interrupt**
 - **Fish Movement:**
   - Move the fish using arrow keys (left, right, up, down) one cell at a time.
   - Continuous movement when keys are held down.
@@ -28,7 +28,7 @@ This project is an infinite animation game built using Assembly language in DOSB
   - Pressing `ESC` will prompt a confirmation message before exiting.
   - Ensures normal functionality of other DOSBox programs after exit.
 
-### **Phase IV - Timer System**
+### **- Timer System**
 - **Screen Animation:** The left/right shift movements of the sky and ships occur at regular time intervals.
 - **Coin Objects:**
   - Two random objects (green or red) appear in the fish area.
@@ -41,7 +41,7 @@ This project is an infinite animation game built using Assembly language in DOSB
   - A new coin spawns at a random position after each disappears.
 - **Score Display:** Shown in the top-right corner.
 
-### **Phase V - BIOS/DOS Services**
+### **- BIOS/DOS Services**
 - **User Input:**
   - When launching the program, users enter their **name**.
 - **Introduction Screen:**
@@ -52,7 +52,7 @@ This project is an infinite animation game built using Assembly language in DOSB
 - **Exit Confirmation:**
   - When pressing `ESC` during gameplay: "Are you sure you want to quit? (Y/N)"
 
-### **Bonus - Multitasking (Extra Credit)**
+### **- Multitasking**
 - **Timer Scheduling for:**
   1. Background music
   2. Main animation (mountains & ships movement)
